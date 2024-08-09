@@ -1,19 +1,18 @@
 // EXAMINE THE DOCUMENT OBJECT //
-
-console.dir(document);
-console.log(document.domain);
-console.log(document.URL);
-console.log(document.title);
-document.title =  123;
-console.log(document.doctype);
-console.log(document.head);
-console.log(document.body);
-console.log(document.all);
-console.log(document.all[10]);
+// console.dir(document);
+// console.log(document.domain);
+// console.log(document.URL);
+// console.log(document.title);
+// document.title =  123;
+// console.log(document.doctype);
+// console.log(document.head);
+// console.logc(document.body);
+// console.log(document.all);
+// console.log(document.all[10]);
 // document.all[10].textContent = 'Hello';
-console.log(document.forms[0]);
-console.log(document.links);
-console.log(document.images);
+// console.log(document.forms[0]);
+// console.log(document.links);
+// console.log(document.images);
 
 // GETELEMENTBYID //
 // console.log(document.getElementById('header-title'));
@@ -50,7 +49,7 @@ console.log(document.images);
 // li[1].style.backgroundColor = 'yellow';
 
 // // Gives error
-// //items.style.backgroundColor = '#f4f4f4';
+// items.style.backgroundColor = '#f4f4f4';
 
 // for(var i = 0; i < li.length; i++){
 //   li[i].style.backgroundColor = '#f4f4f4';
